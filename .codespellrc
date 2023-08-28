@@ -1,0 +1,6 @@
+[codespell]
+skip = .git,*.pdf,*.svg,*.min.js,LICENSE*
+# case sensitive IST abbreviation
+ignore-regex = \bIST\b
+#
+# ignore-words-list =
