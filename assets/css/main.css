@@ -2870,6 +2870,24 @@ input, select, textarea {
 
 		}
 
+.years {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: left;
+    margin: 1em 0 0.5em 0;
+    padding-bottom: 0.2em;
+    border-bottom: 3px solid #fff; /* Underline */
+    letter-spacing: 0.05em;
+    display: inline-block;
+    color: #6b586e;
+    /* Optional: outline effect */
+    /* text-shadow:
+        -1px -1px 0 #222,
+         1px -1px 0 #222,
+        -1px  1px 0 #222,
+         1px  1px 0 #222; */
+}
+
 /* Statistics */
 
 	.statistics {
