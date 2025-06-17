@@ -2819,16 +2819,23 @@ input, select, textarea {
 		list-style: none;
 	}
 
-		.features li {
+		.features > li {
 			width: calc(33.33333% - 2em);
 			margin-left: 2em;
 			margin-top: 3em;
-			padding: 0;
+			/* padding: 0; */
 
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 			text-align: center;
+
+			border: 2px solid #fff;
+			border-radius: 12px;
+			padding: 1.5em 1em;
+			margin-bottom: 1em;
+			/* background: rgba(0,0,0,0.15); Optional: subtle background */
+			box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Optional: subtle shadow */
 		}
 
 			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
