@@ -2451,6 +2451,12 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
+/* Left-align actions under features */
+/* .features .actions.special {
+    justify-content: flex-start;
+    text-align: left;
+} */
+
 	dl {
 		margin: 0 0 2em 0;
 	}
@@ -2818,6 +2824,11 @@ input, select, textarea {
 			margin-left: 2em;
 			margin-top: 3em;
 			padding: 0;
+
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
 		}
 
 			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
@@ -2858,6 +2869,24 @@ input, select, textarea {
 					}
 
 		}
+
+.years {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: left;
+    margin: 1em 0 0.5em 0;
+    padding-bottom: 0.2em;
+    border-bottom: 3px solid #fff; /* Underline */
+    letter-spacing: 0.05em;
+    display: inline-block;
+    color: #6b586e;
+    /* Optional: outline effect */
+    /* text-shadow:
+        -1px -1px 0 #222,
+         1px -1px 0 #222,
+        -1px  1px 0 #222,
+         1px  1px 0 #222; */
+}
 
 /* Statistics */
 
